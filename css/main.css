@@ -9,7 +9,7 @@ body {
     background-color: #fff;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
-    color: black;
+    color: #000;
 }
 
 a {
@@ -79,12 +79,6 @@ li {
     list-style: none;
 }
 
-.white-text {
-    color: #fff !important;
-}
-
-
-
 
 /*--------------------------------------------------*/
 /* Start Header Section                             */
@@ -94,7 +88,7 @@ li {
 
 .header {
     text-align: center;
-    color: #fff;
+    color: #000;
 }
 
 .intro-text {
