@@ -71,16 +71,6 @@ hammer_time.on('swiperight swipeleft', function(e) {
 });
 
 
-for (var i = 0; i < data.length; i++) {
-    var keys = Object.keys(data[i]);
-    console.log('\n');
-
-    for (var j = 0; j < keys.length; j++) {
-        console.log(keys[j] + ": " +  data[i][keys[j]]);
-    }
-}
-
-
 insertData();
 
 
